@@ -52,6 +52,10 @@ header .shape1{
     text-decoration: none;
     color: white;
     font-size: 20px;
+    transition: font-weight 0.4s;
+}
+.navbar li a:hover{
+    font-weight: bold;
 }
 .header-design{
     width: 65%;
@@ -246,8 +250,11 @@ header .shape1{
     font-size: 16px;
     font-weight: bold;
     margin-top: 20px;
+    transition: transform 0.3s;
 }
-
+.product button:hover{
+    transform: rotate(3deg);
+}
 
 /*--------------------------
   section2 start from here 
@@ -403,6 +410,9 @@ header .shape1{
     border-radius: 2px;
     box-shadow: 1px 1px 20px #8888885d;
 }
+#email:focus{
+    outline: 2px solid #FFC312;
+}
 .section4-design .last{
     padding: 12px 20px;
 }
@@ -436,6 +446,15 @@ footer{
     font-size: 18px;
     color: rgba(218, 218, 218, 0.774);
 }
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.social-media .fab{
+    font-size: 32px;
+}
+
 .footer-two{
     width: 60%;
     padding: 100px;
